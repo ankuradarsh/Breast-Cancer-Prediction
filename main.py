@@ -7,9 +7,7 @@ Created on Thu Oct  5 12:55:18 2023
 
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
-
-This is a temporary script file.
+@author: Ankur Adarsh
 """
 
 import numpy as np
