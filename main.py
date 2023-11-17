@@ -36,15 +36,15 @@ def prediction_function(data_to_predict):
 def main():
     st.title("Breast Cancer Prediction Web App")
     
-    features =['id', 'radius_mean', 'texture_mean', 'perimeter_mean',
-       'area_mean', 'smoothness_mean', 'compactness_mean', 'concavity_mean',
-       'concave points_mean', 'symmetry_mean', 'fractal_dimension_mean',
-       'radius_se', 'texture_se', 'perimeter_se', 'area_se', 'smoothness_se',
-       'compactness_se', 'concavity_se', 'concave points_se', 'symmetry_se',
-       'fractal_dimension_se', 'radius_worst', 'texture_worst',
-       'perimeter_worst', 'area_worst', 'smoothness_worst',
-       'compactness_worst', 'concavity_worst', 'concave points_worst',
-       'symmetry_worst', 'fractal_dimension_worst']
+    features =['ID', 'Radius Mean', 'Texture Mean', 'Perimeter Mean',
+       'Area Mean', 'Smoothness Mean', 'Compactness Mean', 'Concavity Mean',
+       'Concave Points Mean', 'Symmetry Mean', 'Fractal Dimension Mean',
+       'Radius se', 'Texture se', 'Perimeter se', 'Area se', 'Smoothness se',
+       'Compactness se', 'Concavity se', 'Concave points se', 'Symmetry se',
+       'Fractal Dimension se', 'Radius worst', 'Texture worst',
+       'Perimeter worst', 'Area worst', 'Smoothness worst',
+       'Compactness worst', 'Concavity worst', 'Concave Points worst',
+       'Symmetry worst', 'Fractal Dimension worst']
     input_features = []
     for value in features:
         input_features.append(st.text_input(f"Input for {value}"))
